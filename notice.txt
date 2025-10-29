@@ -1,0 +1,77 @@
+﻿1. Lancement serveur :
+
+node server.js
+
+2. Génération d’une Api Key :
+curl -X POST http://localhost:4000/api/key/generate \
+  -H "Content-Type: application/json" \
+  -d '{"clientSecret":"secretFort2025"}'
+
+3. Chiffrement des données :
+curl -X POST http://localhost:4000/api/key/encrypt \
+  -H "x-api-key: api-key" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "data": {
+      "nom": "Jean",
+      "prenom": "Dupont",
+      "adresse": "Kinshasa, RDC",
+      "email": "jean.dupont@example.com",
+      "telephone": "+243812345678",
+      "dob": "1990-01-01",
+      "medical": "Diabète"
+    }
+  }'
+
+4 . Déchiffrement des données :
+curl -X POST http://localhost:4000/api/key/decrypt \
+  -H "x-api-key: api-key" \
+  -H "Content-Type: application/json" \
+  -d @decrypt.json
+  
+  
+  ************
+  ﻿1. Lancement serveur :
+
+node server.js
+
+  2. Génération d’une Api Key :
+  
+  curl -X POST https://secure-kzd-v2-production.up.railway.app/api/key/generate \
+  -H "Content-Type: application/json" \
+  -d '{"clientSecret":"secretFort2025"}'
+  
+  
+  3. Chiffrement de données personnelles:
+  
+  curl -X POST http://localhost:4000/api/key/encrypt \
+  -H "x-api-key: kazadi-sk-38f89205423e9af8f7f4e246670c6401" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "data": {
+      "nom": "Jean",
+      "prenom": "Dupont",
+      "adresse": "Kinshasa, RDC",
+      "email": "jean.dupont@example.com",
+      "telephone": "+243812345678",
+      "dob": "1990-01-01",
+      "medical": "Diabète"
+    }
+  }'
+
+ 4. Déchiffrement des données
+    Pour restaurer les données d’origine :
+    
+  curl -X POST http://localhost:4000/api/key/decrypt \
+  -H "x-api-key: kazadi-sk-38f89205423e9af8f7f4e246670c6401" \
+  -H "Content-Type: application/json" \
+  -d @decrypt.json
+  
+ 
+ 5. Audit des opérations (log interne)
+    Chaque action (ENCRYPT, DECRYPT, etc.) est automatiquement enregistrée dans le fichier :
+    Tu peux le lire avec :
+    
+  cat logs/audit.log
+
+

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Démo Secure KZD Data Protect</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background:#f9f9f9; color:#222;
+      margin:0; padding:20px;
+    }
+    h1 { text-align:center; color:#0057b8; }
+    form {
+      background:#fff; padding:20px; border-radius:8px;
+      box-shadow:0 0 8px rgba(0,0,0,0.1);
+      max-width:600px; margin:20px auto;
+    }
+    label { display:block; margin-top:10px; }
+    input, textarea {
+      width:100%; padding:8px; margin-top:5px;
+      border:1px solid #ccc; border-radius:4px;
+    }
+    button {
+      margin-top:15px; padding:10px 15px; border:none;
+      border-radius:5px; color:white; cursor:pointer;
+    }
+    #withoutApi { background:#777; }
+    #withApi { background:#0057b8; }
+    #decryptApi { background:#28a745; }
+    pre {
+      background:#f0f0f0; padding:10px;
+      border-radius:6px; overflow-x:auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>🔐 Démo Secure KZD Data Protect</h1>
+
+  <form id="dataForm">
+    <label>Nom:</label>
+    <input id="nom" value="Jean" required>
+
+    <label>Prénom:</label>
+    <input id="prenom" value="Dupont">
+
+    <label>Adresse:</label>
+    <input id="adresse" value="Kinshasa, RDC">
+
+    <label>Email:</label>
+    <input id="email" value="jean.dupont@example.com">
+
+    <label>Téléphone:</label>
+    <input id="telephone" value="+243812345678">
+
+    <label>Date de naissance:</label>
+    <input type="date" id="dob" value="1990-01-01">
+
+    <label>Données médicales:</label>
+    <textarea id="medical">Diabète</textarea>
+
+    <label id="apiLabel" style="display:none;">Clé API Secure KZD:</label>
+    <input id="apiKey" placeholder="Ex: kzd-sk-xxxx" style="display:none;">
+
+    <button type="button" id="withoutApi">⚙️ Sans API (simulation)</button>
+    <button type="button" id="withApi">🔒 Avec API Secure KZD</button>
+    <button type="button" id="decryptApi" style="display:none;">🔓 Déchiffrer avec API</button>
+  </form>
+
+  <div id="result"></div>
+
+  <script>
+    const resultDiv = document.getElementById("result");
+    const apiKeyInput = document.getElementById("apiKey");
+    const apiLabel = document.getElementById("apiLabel");
+    const decryptBtn = document.getElementById("decryptApi");
+
+    let lastEncrypted = null;
+
+    function collectData() {
+      return {
+        nom: document.getElementById("nom").value,
+        prenom: document.getElementById("prenom").value,
+        adresse: document.getElementById("adresse").value,
+        email: document.getElementById("email").value,
+        telephone: document.getElementById("telephone").value,
+        dob: document.getElementById("dob").value,
+        medical: document.getElementById("medical").value,
+      };
+    }
+
+    // --- SANS API ---
+    document.getElementById("withoutApi").addEventListener("click", () => {
+      const data = collectData();
+      resultDiv.innerHTML = `
+        <h3>🧾 Données enregistrées sans protection</h3>
+        <pre>${JSON.stringify(data, null, 2)}</pre>
+      `;
+    });
+
+    // --- AVEC API ---
+    document.getElementById("withApi").addEventListener("click", async () => {
+      if (apiKeyInput.style.display === "none") {
+        apiKeyInput.style.display = "block";
+        apiLabel.style.display = "block";
+        apiKeyInput.focus();
+        return;
+      }
+
+      const apiKey = apiKeyInput.value.trim();
+      if (!apiKey) return alert("Veuillez entrer votre clé API Secure KZD");
+
+      const data = collectData();
+      try {
+        const res = await fetch("http://localhost:4000/api/key/encrypt", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "x-api-key": apiKey,
+          },
+          body: JSON.stringify({ data }),
+        });
+        const json = await res.json();
+        lastEncrypted = json; // on garde pour déchiffrer ensuite
+
+        resultDiv.innerHTML = `
+          <h3>🔒 Données chiffrées (Secure KZD)</h3>
+          <pre>${JSON.stringify(json, null, 2)}</pre>
+        `;
+        decryptBtn.style.display = "inline-block";
+      } catch (err) {
+        resultDiv.innerHTML = `<p style="color:red;">Erreur : ${err.message}</p>`;
+      }
+    });
+
+    // --- DÉCHIFFRER AVEC API ---
+    decryptBtn.addEventListener("click", async () => {
+      const apiKey = apiKeyInput.value.trim();
+      if (!apiKey) return alert("Veuillez entrer votre clé API Secure KZD");
+      if (!lastEncrypted) return alert("Aucune donnée chiffrée à déchiffrer");
+
+      try {
+        const res = await fetch("http://localhost:4000/api/key/decrypt", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "x-api-key": apiKey,
+          },
+          body: JSON.stringify(lastEncrypted),
+        });
+        const json = await res.json();
+        resultDiv.innerHTML = `
+          <h3>🔓 Données déchiffrées (restaurées)</h3>
+          <pre>${JSON.stringify(json, null, 2)}</pre>
+        `;
+      } catch (err) {
+        resultDiv.innerHTML = `<p style="color:red;">Erreur : ${err.message}</p>`;
+      }
+    });
+  </script>
+</body>
+</html>

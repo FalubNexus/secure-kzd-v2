@@ -1,0 +1,450 @@
+[
+  {
+    "timestamp": "2025-10-08T14:19:07.161Z",
+    "apiKey": "kazadi-sk-4fd864d34aa29a1c17c41f3f1bf20a79",
+    "ip": "::1",
+    "action": "ENCRYPT",
+    "status": "SUCCESS",
+    "message": "Chiffrement réussi pour nom, email"
+  },
+  {
+    "timestamp": "2025-10-08T14:28:45.642Z",
+    "apiKey": "kazadi-sk-effaeaf1a4ac8d250813a632a59a64de",
+    "ip": "::1",
+    "action": "ENCRYPT",
+    "status": "SUCCESS",
+    "message": "Chiffrement réussi pour nom, email"
+  },
+  {
+    "timestamp": "2025-10-10T06:33:27.530Z",
+    "apiKey": "kazadi-sk-97c68d12f8985f896294938a0b9c46d2",
+    "ip": "::1",
+    "action": "ENCRYPT",
+    "status": "SUCCESS",
+    "message": "Chiffrement réussi pour nom, prenom, email, telephone, dob, medical"
+  },
+  {
+    "timestamp": "2025-10-10T06:33:38.646Z",
+    "apiKey": "kazadi-sk-97c68d12f8985f896294938a0b9c46d2",
+    "ip": "::1",
+    "action": "DECRYPT",
+    "status": "SUCCESS",
+    "message": "Déchiffrement réussi"
+  },
+  {
+    "timestamp": "2025-10-10T06:33:41.062Z",
+    "apiKey": "kazadi-sk-97c68d12f8985f896294938a0b9c46d2",
+    "ip": "::1",
+    "action": "DECRYPT",
+    "status": "SUCCESS",
+    "message": "Déchiffrement réussi"
+  },
+  {
+    "timestamp": "2025-10-10T06:33:46.207Z",
+    "apiKey": "kazadi-sk-97c68d12f8985f896294938a0b9c46d2",
+    "ip": "::1",
+    "action": "ENCRYPT",
+    "status": "SUCCESS",
+    "message": "Chiffrement réussi pour nom, prenom, email, telephone, dob, medical"
+  },
+  {
+    "timestamp": "2025-10-10T06:34:20.239Z",
+    "apiKey": "kazadi-sk-97c68d12f8985f896294938a0b9c46d2",
+    "ip": "::1",
+    "action": "DECRYPT",
+    "status": "SUCCESS",
+    "message": "Déchiffrement réussi"
+  },
+  {
+    "timestamp": "2025-10-10T06:35:06.427Z",
+    "apiKey": "kazadi-sk-97c68d12f8985f896294938a0b9c46d2",
+    "ip": "::1",
+    "action": "ENCRYPT",
+    "status": "SUCCESS",
+    "message": "Chiffrement réussi pour nom, prenom, email, telephone, dob, medical"
+  },
+  {
+    "timestamp": "2025-10-10T06:43:30.822Z",
+    "apiKey": "kazadi-sk-97c68d12f8985f896294938a0b9c46d2",
+    "ip": "::1",
+    "action": "DECRYPT",
+    "status": "SUCCESS",
+    "message": "Déchiffrement réussi"
+  },
+  {
+    "timestamp": "2025-10-10T06:43:33.095Z",
+    "apiKey": "kazadi-sk-97c68d12f8985f896294938a0b9c46d2",
+    "ip": "::1",
+    "action": "ENCRYPT",
+    "status": "SUCCESS",
+    "message": "Chiffrement réussi pour nom, prenom, email, telephone, dob, medical"
+  },
+  {
+    "timestamp": "2025-10-10T06:43:34.363Z",
+    "apiKey": "kazadi-sk-97c68d12f8985f896294938a0b9c46d2",
+    "ip": "::1",
+    "action": "DECRYPT",
+    "status": "SUCCESS",
+    "message": "Déchiffrement réussi"
+  },
+  {
+    "timestamp": "2025-10-10T06:47:36.823Z",
+    "apiKey": "kazadi-sk-97c68d12f8985f896294938a0b9c46d2",
+    "ip": "::1",
+    "action": "ENCRYPT",
+    "status": "SUCCESS",
+    "message": "Chiffrement réussi pour nom, prenom, email, telephone, dob, medical"
+  },
+  {
+    "timestamp": "2025-10-10T06:47:41.981Z",
+    "apiKey": "kazadi-sk-97c68d12f8985f896294938a0b9c46d2",
+    "ip": "::1",
+    "action": "DECRYPT",
+    "status": "SUCCESS",
+    "message": "Déchiffrement réussi"
+  },
+  {
+    "timestamp": "2025-10-10T06:52:14.966Z",
+    "apiKey": "kazadi-sk-97c68d12f8985f896294938a0b9c46d2",
+    "ip": "::1",
+    "action": "DECRYPT",
+    "status": "SUCCESS",
+    "message": "Déchiffrement réussi"
+  },
+  {
+    "timestamp": "2025-10-10T06:52:15.704Z",
+    "apiKey": "kazadi-sk-97c68d12f8985f896294938a0b9c46d2",
+    "ip": "::1",
+    "action": "DECRYPT",
+    "status": "SUCCESS",
+    "message": "Déchiffrement réussi"
+  },
+  {
+    "timestamp": "2025-10-10T06:52:16.809Z",
+    "apiKey": "kazadi-sk-97c68d12f8985f896294938a0b9c46d2",
+    "ip": "::1",
+    "action": "ENCRYPT",
+    "status": "SUCCESS",
+    "message": "Chiffrement réussi pour nom, prenom, email, telephone, dob, medical"
+  },
+  {
+    "timestamp": "2025-10-10T06:52:18.228Z",
+    "apiKey": "kazadi-sk-97c68d12f8985f896294938a0b9c46d2",
+    "ip": "::1",
+    "action": "DECRYPT",
+    "status": "SUCCESS",
+    "message": "Déchiffrement réussi"
+  },
+  {
+    "timestamp": "2025-10-10T06:53:29.492Z",
+    "apiKey": "kazadi-sk-97c68d12f8985f896294938a0b9c46d2",
+    "ip": "::1",
+    "action": "ENCRYPT",
+    "status": "SUCCESS",
+    "message": "Chiffrement réussi pour nom, prenom, email, telephone, dob, medical"
+  },
+  {
+    "timestamp": "2025-10-10T06:53:35.945Z",
+    "apiKey": "kazadi-sk-97c68d12f8985f896294938a0b9c46d2",
+    "ip": "::1",
+    "action": "DECRYPT",
+    "status": "SUCCESS",
+    "message": "Déchiffrement réussi"
+  },
+  {
+    "timestamp": "2025-10-10T07:03:32.603Z",
+    "apiKey": "kazadi-sk-97c68d12f8985f896294938a0b9c46d2",
+    "ip": "::1",
+    "action": "ENCRYPT",
+    "status": "SUCCESS",
+    "message": "Chiffrement réussi pour nom, prenom, email, telephone, dob, medical"
+  },
+  {
+    "timestamp": "2025-10-10T07:03:44.625Z",
+    "apiKey": "kazadi-sk-97c68d12f8985f896294938a0b9c46d2",
+    "ip": "::1",
+    "action": "DECRYPT",
+    "status": "FAIL",
+    "message": "Cannot read properties of undefined (reading 'nom')"
+  },
+  {
+    "timestamp": "2025-10-10T07:03:49.201Z",
+    "apiKey": "kazadi-sk-97c68d12f8985f896294938a0b9c46d2",
+    "ip": "::1",
+    "action": "DECRYPT",
+    "status": "FAIL",
+    "message": "Cannot read properties of undefined (reading 'nom')"
+  },
+  {
+    "timestamp": "2025-10-10T07:09:30.141Z",
+    "apiKey": "kazadi-sk-97c68d12f8985f896294938a0b9c46d2",
+    "ip": "::1",
+    "action": "ENCRYPT",
+    "status": "SUCCESS",
+    "message": "Chiffrement réussi pour nom, prenom, email, telephone, dob, medical"
+  },
+  {
+    "timestamp": "2025-10-10T07:09:39.959Z",
+    "apiKey": "kazadi-sk-97c68d12f8985f896294938a0b9c46d2",
+    "ip": "::1",
+    "action": "DECRYPT",
+    "status": "FAIL",
+    "message": "Format invalide (attendu : { encrypted: {...}, signature: \"...\" })"
+  },
+  {
+    "timestamp": "2025-10-10T07:16:05.194Z",
+    "apiKey": "kazadi-sk-97c68d12f8985f896294938a0b9c46d2",
+    "ip": "::1",
+    "action": "ENCRYPT",
+    "status": "SUCCESS",
+    "message": "Chiffrement réussi pour nom, email, dob"
+  },
+  {
+    "timestamp": "2025-10-10T08:48:58.104Z",
+    "apiKey": "kazadi-sk-a4ec7e96a39ab66e40f3ab33b8cd164c",
+    "ip": "::1",
+    "action": "ENCRYPT",
+    "status": "SUCCESS",
+    "message": "Chiffrement réussi pour nom, prenom, email, telephone, dob, medical"
+  },
+  {
+    "timestamp": "2025-10-10T08:49:10.336Z",
+    "apiKey": "kazadi-sk-a4ec7e96a39ab66e40f3ab33b8cd164c",
+    "ip": "::1",
+    "action": "DECRYPT",
+    "status": "SUCCESS",
+    "message": "Déchiffrement réussi"
+  },
+  {
+    "timestamp": "2025-10-10T08:50:06.929Z",
+    "apiKey": "kazadi-sk-a4ec7e96a39ab66e40f3ab33b8cd164c",
+    "ip": "::1",
+    "action": "ENCRYPT",
+    "status": "SUCCESS",
+    "message": "Chiffrement réussi pour nom, email, dob"
+  },
+  {
+    "timestamp": "2025-10-10T08:51:35.173Z",
+    "apiKey": "kazadi-sk-a4ec7e96a39ab66e40f3ab33b8cd164c",
+    "ip": "::1",
+    "action": "DECRYPT",
+    "status": "FAIL",
+    "message": "Signature d’intégrité invalide — données corrompues"
+  },
+  {
+    "timestamp": "2025-10-10T09:05:33.670Z",
+    "apiKey": "kazadi-sk-d8d7ffc7ab431cd8a027e809e106321b",
+    "ip": "::1",
+    "action": "ENCRYPT",
+    "status": "SUCCESS",
+    "message": "Chiffrement réussi pour nom, email, dob"
+  },
+  {
+    "timestamp": "2025-10-10T09:05:33.678Z",
+    "apiKey": "kazadi-sk-d8d7ffc7ab431cd8a027e809e106321b",
+    "ip": "::1",
+    "action": "DECRYPT",
+    "status": "SUCCESS",
+    "message": "Déchiffrement réussi"
+  },
+  {
+    "timestamp": "2025-10-10T09:06:21.293Z",
+    "apiKey": "kazadi-sk-38f89205423e9af8f7f4e246670c6401",
+    "ip": "::1",
+    "action": "ENCRYPT",
+    "status": "SUCCESS",
+    "message": "Chiffrement réussi pour nom, prenom, email, telephone, dob, medical"
+  },
+  {
+    "timestamp": "2025-10-10T09:06:25.379Z",
+    "apiKey": "kazadi-sk-38f89205423e9af8f7f4e246670c6401",
+    "ip": "::1",
+    "action": "DECRYPT",
+    "status": "SUCCESS",
+    "message": "Déchiffrement réussi"
+  },
+  {
+    "timestamp": "2025-10-10T09:06:37.222Z",
+    "apiKey": "kazadi-sk-d4ad9ac52250ff903e3ae4a088c627b5",
+    "ip": "::1",
+    "action": "ENCRYPT",
+    "status": "SUCCESS",
+    "message": "Chiffrement réussi pour nom, email, dob"
+  },
+  {
+    "timestamp": "2025-10-10T09:06:37.230Z",
+    "apiKey": "kazadi-sk-d4ad9ac52250ff903e3ae4a088c627b5",
+    "ip": "::1",
+    "action": "DECRYPT",
+    "status": "SUCCESS",
+    "message": "Déchiffrement réussi"
+  },
+  {
+    "timestamp": "2025-10-10T09:20:57.215Z",
+    "apiKey": "kazadi-sk-a4ec7e96a39ab66e40f3ab33b8cd164c",
+    "ip": "::1",
+    "action": "ENCRYPT",
+    "status": "SUCCESS",
+    "message": "Chiffrement réussi pour nom, prenom, adresse, email, telephone, dob, medical"
+  },
+  {
+    "timestamp": "2025-10-10T09:21:02.664Z",
+    "apiKey": "kazadi-sk-a4ec7e96a39ab66e40f3ab33b8cd164c",
+    "ip": "::1",
+    "action": "DECRYPT",
+    "status": "SUCCESS",
+    "message": "Déchiffrement réussi"
+  },
+  {
+    "timestamp": "2025-10-10T09:21:09.861Z",
+    "apiKey": "kazadi-sk-a4ec7e96a39ab66e40f3ab33b8cd164c",
+    "ip": "::1",
+    "action": "DECRYPT",
+    "status": "SUCCESS",
+    "message": "Déchiffrement réussi"
+  },
+  {
+    "timestamp": "2025-10-10T09:21:47.590Z",
+    "apiKey": "kazadi-sk-a4ec7e96a39ab66e40f3ab33b8cd164c",
+    "ip": "::1",
+    "action": "ENCRYPT",
+    "status": "SUCCESS",
+    "message": "Chiffrement réussi pour nom, prenom, adresse, email, telephone, dob, medical"
+  },
+  {
+    "timestamp": "2025-10-10T09:21:56.419Z",
+    "apiKey": "kazadi-sk-a4ec7e96a39ab66e40f3ab33b8cd164c",
+    "ip": "::1",
+    "action": "DECRYPT",
+    "status": "SUCCESS",
+    "message": "Déchiffrement réussi"
+  },
+  {
+    "timestamp": "2025-10-10T09:22:29.153Z",
+    "apiKey": "kazadi-sk-a4ec7e96a39ab66e40f3ab33b8cd164c",
+    "ip": "::1",
+    "action": "ENCRYPT",
+    "status": "SUCCESS",
+    "message": "Chiffrement réussi pour nom, prenom, adresse, email, telephone, dob, medical"
+  },
+  {
+    "timestamp": "2025-10-10T09:22:31.193Z",
+    "apiKey": "kazadi-sk-a4ec7e96a39ab66e40f3ab33b8cd164c",
+    "ip": "::1",
+    "action": "DECRYPT",
+    "status": "SUCCESS",
+    "message": "Déchiffrement réussi"
+  },
+  {
+    "timestamp": "2025-10-10T10:15:10.428Z",
+    "apiKey": "kazadi-sk-da54ef026a85341b0f8a6419e91c4d62",
+    "ip": "::1",
+    "action": "ENCRYPT",
+    "status": "SUCCESS",
+    "message": "Chiffrement réussi pour nom, prenom, adresse, email, telephone, dob, medical"
+  },
+  {
+    "timestamp": "2025-10-10T10:15:25.169Z",
+    "apiKey": "kazadi-sk-da54ef026a85341b0f8a6419e91c4d62",
+    "ip": "::1",
+    "action": "DECRYPT",
+    "status": "SUCCESS",
+    "message": "Déchiffrement réussi"
+  },
+  {
+    "timestamp": "2025-10-10T10:15:39.866Z",
+    "apiKey": "kazadi-sk-da54ef026a85341b0f8a6419e91c4d62",
+    "ip": "::1",
+    "action": "ENCRYPT",
+    "status": "SUCCESS",
+    "message": "Chiffrement réussi pour nom, prenom, adresse, email, telephone, dob, medical"
+  },
+  {
+    "timestamp": "2025-10-10T10:15:45.700Z",
+    "apiKey": "kazadi-sk-da54ef026a85341b0f8a6419e91c4d62",
+    "ip": "::1",
+    "action": "DECRYPT",
+    "status": "SUCCESS",
+    "message": "Déchiffrement réussi"
+  },
+  {
+    "timestamp": "2025-10-10T10:16:07.706Z",
+    "apiKey": "kazadi-sk-da54ef026a85341b0f8a6419e91c4d62",
+    "ip": "::1",
+    "action": "ENCRYPT",
+    "status": "SUCCESS",
+    "message": "Chiffrement réussi pour nom, prenom, adresse, email, telephone, dob, medical"
+  },
+  {
+    "timestamp": "2025-10-17T16:42:20.415Z",
+    "apiKey": "kzd-sk-522104d468ad57d4435f348f2a4a9868",
+    "ip": "::1",
+    "action": "ENCRYPT",
+    "status": "SUCCESS",
+    "message": "Chiffrement réussi pour nom, prenom, adresse, email, telephone, dob, medical"
+  },
+  {
+    "timestamp": "2025-10-29T11:19:31.716Z",
+    "apiKey": "kzd-sk-429d54646543302f827ed0f5971ad32f",
+    "ip": "::1",
+    "action": "ENCRYPT",
+    "status": "SUCCESS",
+    "message": "Chiffrement réussi pour nom, prenom, adresse, email, telephone, dob, medical"
+  },
+  {
+    "timestamp": "2025-10-29T11:21:32.108Z",
+    "apiKey": "kzd-sk-429d54646543302f827ed0f5971ad32f",
+    "ip": "::1",
+    "action": "DECRYPT",
+    "status": "FAIL",
+    "message": "Signature d’intégrité invalide — données corrompues"
+  },
+  {
+    "timestamp": "2025-10-29T11:29:46.910Z",
+    "apiKey": "kzd-sk-429d54646543302f827ed0f5971ad32f",
+    "ip": "::1",
+    "action": "ENCRYPT",
+    "status": "SUCCESS",
+    "message": "Chiffrement réussi pour nom, email, dob"
+  },
+  {
+    "timestamp": "2025-10-29T11:29:46.920Z",
+    "apiKey": "kzd-sk-429d54646543302f827ed0f5971ad32f",
+    "ip": "::1",
+    "action": "DECRYPT",
+    "status": "SUCCESS",
+    "message": "Déchiffrement réussi"
+  },
+  {
+    "timestamp": "2025-10-29T11:34:23.676Z",
+    "apiKey": "kzd-sk-429d54646543302f827ed0f5971ad32f",
+    "ip": "::ffff:127.0.0.1",
+    "action": "ENCRYPT",
+    "status": "SUCCESS",
+    "message": "Chiffrement réussi pour nom, prenom, adresse, email, telephone, dob, medical"
+  },
+  {
+    "timestamp": "2025-10-29T11:34:39.269Z",
+    "apiKey": "kzd-sk-429d54646543302f827ed0f5971ad32f",
+    "ip": "::ffff:127.0.0.1",
+    "action": "DECRYPT",
+    "status": "SUCCESS",
+    "message": "Déchiffrement réussi"
+  },
+  {
+    "timestamp": "2025-10-29T11:35:08.889Z",
+    "apiKey": "kzd-sk-429d54646543302f827ed0f5971ad32f",
+    "ip": "::ffff:127.0.0.1",
+    "action": "ENCRYPT",
+    "status": "SUCCESS",
+    "message": "Chiffrement réussi pour nom, prenom, adresse, email, telephone, dob, medical"
+  },
+  {
+    "timestamp": "2025-10-29T11:35:16.978Z",
+    "apiKey": "kzd-sk-429d54646543302f827ed0f5971ad32f",
+    "ip": "::ffff:127.0.0.1",
+    "action": "DECRYPT",
+    "status": "SUCCESS",
+    "message": "Déchiffrement réussi"
+  }
+]
