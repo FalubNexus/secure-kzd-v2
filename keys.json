@@ -1,10 +1,10 @@
 [
   {
-    "apiKey": "kzd-sk-429d54646543302f827ed0f5971ad32f",
-    "deviceId": "760e40e1a2d25a00",
-    "clientSecretHash": "$2b$12$WtG3HQawkjf.URlqD9IlIeS3FJplvjEHg979a7prziPrJtm7uPjG.",
-    "createdAt": 1761736682948,
-    "expiresAt": 1761740282948,
-    "signature": "e6d0a26c8f605fb46f27ca3e04b8d867a8b3c13f63fc0dbd8e0a26125fe0c1f5"
+    "apiKey": "kzd-sk-8d69b230a4b094f68ab0ae9b64e87d95",
+    "deviceId": "59dbbfcf0c9e4449",
+    "clientSecretHash": "$2b$12$K4.0KeaLZXBgehFj5nFwbew4xdRDj5ADE65uRVQdrupPrnITfgRf.",
+    "createdAt": 1768388653830,
+    "expiresAt": 1768392253830,
+    "signature": "18c538e638962d2d00f01c85a950535ad886e71140c0f55b8a4818f8e4a062cf"
   }
 ]

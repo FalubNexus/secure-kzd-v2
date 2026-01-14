@@ -446,5 +446,53 @@
     "action": "DECRYPT",
     "status": "SUCCESS",
     "message": "Déchiffrement réussi"
+  },
+  {
+    "timestamp": "2026-01-14T11:06:25.245Z",
+    "apiKey": "kzd-sk-8d69b230a4b094f68ab0ae9b64e87d95",
+    "ip": "::ffff:127.0.0.1",
+    "action": "ENCRYPT",
+    "status": "SUCCESS",
+    "message": "Chiffrement réussi pour nom, prenom, adresse, email, telephone, dob, medical"
+  },
+  {
+    "timestamp": "2026-01-14T11:06:38.653Z",
+    "apiKey": "kzd-sk-8d69b230a4b094f68ab0ae9b64e87d95",
+    "ip": "::ffff:127.0.0.1",
+    "action": "DECRYPT",
+    "status": "SUCCESS",
+    "message": "Déchiffrement réussi"
+  },
+  {
+    "timestamp": "2026-01-14T11:29:15.660Z",
+    "apiKey": "kzd-sk-8d69b230a4b094f68ab0ae9b64e87d95",
+    "ip": "::1",
+    "action": "ENCRYPT",
+    "status": "SUCCESS",
+    "message": "Chiffrement réussi pour nom, prenom, email, telephone, dob, medical"
+  },
+  {
+    "timestamp": "2026-01-14T11:30:32.037Z",
+    "apiKey": "kzd-sk-8d69b230a4b094f68ab0ae9b64e87d95",
+    "ip": "::1",
+    "action": "DECRYPT",
+    "status": "FAIL",
+    "message": "Signature d’intégrité invalide — données corrompues"
+  },
+  {
+    "timestamp": "2026-01-14T11:37:28.229Z",
+    "apiKey": "kzd-sk-8d69b230a4b094f68ab0ae9b64e87d95",
+    "ip": "::ffff:127.0.0.1",
+    "action": "ENCRYPT",
+    "status": "SUCCESS",
+    "message": "Chiffrement réussi pour nom, prenom, adresse, email, telephone, dob, medical"
+  },
+  {
+    "timestamp": "2026-01-14T11:37:36.918Z",
+    "apiKey": "kzd-sk-8d69b230a4b094f68ab0ae9b64e87d95",
+    "ip": "::ffff:127.0.0.1",
+    "action": "DECRYPT",
+    "status": "SUCCESS",
+    "message": "Déchiffrement réussi"
   }
 ]
