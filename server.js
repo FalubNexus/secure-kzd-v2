@@ -44,6 +44,6 @@ app.use((req, res) => {
 
 // ✅ Démarrage du serveur
 const PORT = process.env.PORT || 4000;
-app.listen(PORT, () => {
+app.listen(PORT, "0.0.0.0", () => {
   console.log(`✅ Secure KZD Server running on port ${PORT}`);
 });
